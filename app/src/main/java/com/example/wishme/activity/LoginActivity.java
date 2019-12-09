@@ -39,7 +39,8 @@ public class LoginActivity extends AppCompatActivity {
                         .makeText(getApplicationContext(), password, Toast.LENGTH_SHORT)
                         .show(); */
                 if (username.equals("username") && password.equals("password")) {
-                    Intent intent = new Intent(getApplicationContext(), WelcomeActivity.class);
+                    //Intent intent = new Intent(getApplicationContext(), WelcomeActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), Interests.class);
                     startActivity(intent);
                 } else {
                     Toast
