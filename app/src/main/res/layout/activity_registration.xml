@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:ignore="LabelFor"
+    tools:context=".activity.Registration">
+<!--Name : TextView & Edit Text -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/tviewName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/a_registration_name" />
+
+        <EditText
+            android:id="@+id/r_etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:autofillHints="@string/a_registration_name"/>
+
+        <!--Email : TextView & Edit Text -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/r_tvEmail"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="@string/a_login_email" />
+
+        <EditText
+            android:id="@+id/r_etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:autofillHints="a_login_email"
+            />
+    </LinearLayout>
+
+    <!--Contact : TextView & Edit Text -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tvContactNo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="@string/a_contact_number" />
+
+        <EditText
+            android:id="@+id/r_etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:autofillHints="@string/a_contact_number"
+            />
+    </LinearLayout>
+
+    <!--Password : TextView & Edit Text -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_r_Pswd"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="@string/a_login_password" />
+
+        <EditText
+            android:id="@+id/r_et_Pswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:autofillHints="@string/a_login_password"
+            />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/r_btnSignUp"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginLeft="100dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/a_signup_label_button"
+        />
+
+
+</LinearLayout>

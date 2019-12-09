@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WishMe</string>
+    <string name="a_login_email">Email</string>
+    <string name="a_login_password">Password</string>
+    <string name="a_login_label_button">Sign In</string>
+    <string name="a_login_not_registered">Not yet registered? </string>
+    <string name="a_login_sign_up">Sign up</string>
+    <string name="a_registration_name">Name</string>
+    <string name="a_contact_number">Phone No</string>
+    <string name="a_signup_label_button">Sign Up</string>
+    <string name="a_r_change_pswd">Change Password</string>
+    <string name="a_r_new_pswd">New Password</string>
+    <string name="Desc">Wish Me!</string>
+</resources>
