@@ -5,7 +5,8 @@
 
     <ImageView android:id="@+id/splashscreen" android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:src="@drawable/wishme"
+        android:background="@color/colorbg"
+        android:src="@drawable/splash"
         android:layout_gravity="center"
         android:contentDescription="@string/Desc"/>
 

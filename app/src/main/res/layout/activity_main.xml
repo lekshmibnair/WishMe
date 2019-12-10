@@ -7,12 +7,14 @@
     android:backgroundTintMode="screen"
     android:orientation="vertical"
     android:padding="70dp"
+    android:background="@drawable/appbg"
     tools:ignore="LabelFor">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints="@string/a_login_email"
+        android:textColor="@color/colorPrimary"
         android:padding="10dp"
         android:text="@string/a_login_email"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -23,6 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints="@string/a_login_email"
+        android:textColor="@color/colorPrimary"
         android:inputType="textEmailAddress"
         android:paddingLeft="20dp" />
 
@@ -30,6 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints="@string/a_login_password"
+        android:textColor="@color/colorPrimary"
         android:padding="10dp"
         android:text="@string/a_login_password"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -40,6 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints="@string/a_login_password"
+        android:textColor="@color/colorPrimary"
         android:inputType="textPassword"
         android:paddingLeft="20dp" />
 
@@ -49,7 +54,10 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
         android:padding="20dp"
+        android:elevation="2dp"
+        android:backgroundTint="@color/colorPrimary"
         android:text="@string/a_login_label_button"
+        android:textColor="#4c4846"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         tools:text="@string/a_login_label_button" />
 
